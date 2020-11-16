@@ -1,0 +1,246 @@
+[33mcommit 8f5e2c4d6ebba8836f6d31ec9a0c171948e3237d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Limor "Ladyada" Fried <limor@ladyada.net>
+Date:   Mon Nov 11 20:53:46 2019 -0500
+
+    Update README.md
+
+[33mcommit 9aa64777957b42fab63d5853fbdf29985c24d713[m
+Merge: afdb85b f2799f8
+Author: Limor "Ladyada" Fried <limor@ladyada.net>
+Date:   Tue Sep 10 13:10:07 2019 -0400
+
+    Merge pull request #118 from Zweedeend/RPi-4-patch
+    
+    Include Raspberrpy Pi 4
+
+[33mcommit f2799f8408a4d3d105d9457fd9222a942bf57394[m
+Author: Zweedeend <nielskouwenhoven@gmail.com>
+Date:   Tue Sep 10 15:38:13 2019 +0200
+
+    Include Raspberrpy Pi 4
+    
+    The Raspberry Pi 4 uses the same Broadcom 2835 as the Raspberry Pi 3.
+    The module will work on Raspberry Pi 4 without changes, but the comment makes clear why it works.
+
+[33mcommit afdb85b7415ca389dbdba56fcf655ae6456b2034[m[33m ([m[1;33mtag: 1.4.1[m[33m)[m
+Merge: c9407aa c7db406
+Author: brentrubell <brentru@users.noreply.github.com>
+Date:   Tue Jun 11 12:46:40 2019 -0400
+
+    Merge pull request #115 from russfeld/master
+    
+    Update Google Spreadsheets example
+
+[33mcommit c7db406bbf8a5c633447c0a287e5964c2221561c[m
+Author: Russell Feldhausen <russfeldh@gmail.com>
+Date:   Tue Jun 4 12:33:02 2019 -0500
+
+    Resolves error: datetime.datetime(...) is not JSON serializable
+
+[33mcommit 266d08058ae70321b4847b81e29e43c86017ca8d[m
+Author: Russell Feldhausen <russfeldh@gmail.com>
+Date:   Tue Jun 4 12:31:30 2019 -0500
+
+    Update Google Drive API Scope - Resolves #90 in original project
+
+[33mcommit c9407aa0506321bbc63ec8ba3c59fc21291f4746[m[33m ([m[1;33mtag: 1.4.0[m[33m)[m
+Author: Brennen Bearnes <brennen@adafruit.com>
+Date:   Wed Nov 7 10:59:13 2018 -0700
+
+    version bump to 1.4.0 in setup.py
+
+[33mcommit 27416d21b7198845df331446f154a34952cc0722[m
+Merge: 1d36090 dc3f15e
+Author: Brennen Bearnes <74990+brennen@users.noreply.github.com>
+Date:   Fri Nov 2 12:32:55 2018 -0600
+
+    Merge pull request #98 from gunkl/master
+    
+    Issue #49 - fix long cable read delay on DHT sensor with RPI 1
+
+[33mcommit 1d360907f0e156ae55ddbfb089fc74b1bf8aec76[m
+Merge: 18846de 7584026
+Author: Brennen Bearnes <74990+brennen@users.noreply.github.com>
+Date:   Fri Nov 2 12:31:41 2018 -0600
+
+    Merge pull request #104 from hack-fang/master
+    
+    add Pi 3b+ support
+
+[33mcommit 7584026ca4b8a1890c969547dbfbf9423f6bae70[m
+Author: kaifang <kaifang.1995@gmail.com>
+Date:   Fri Oct 26 21:24:00 2018 +0800
+
+    add Pi 3b+ support
+    
+    add support to Pi 3b+,which use 'BCM2837',build succsess
+
+[33mcommit 18846deec6a96572b3f2c4a9edfb5bac55b46f5b[m
+Merge: b1d428f f66c1ca
+Author: Brennen Bearnes <74990+brennen@users.noreply.github.com>
+Date:   Tue Jul 31 11:18:59 2018 -0600
+
+    Merge pull request #101 from adafruit/remove_ez_setup
+    
+    remove deprecated ez_setup.py; update install instructions (fixes #91)
+
+[33mcommit f66c1ca8d391d09a589ed68fb41237ac5d30832a[m[33m ([m[1;33mtag: 1.3.4[m[33m, [m[1;31morigin/remove_ez_setup[m[33m)[m
+Author: Brennen Bearnes <brennen@adafruit.com>
+Date:   Mon Jul 30 17:35:30 2018 -0600
+
+    updated install instructions per @juliogonzalez suggestions
+
+[33mcommit b1d428f9d3e888d043695da0790ad855bb737b83[m
+Merge: d09520a 29482ff
+Author: Brennen Bearnes <74990+brennen@users.noreply.github.com>
+Date:   Thu Jul 26 23:08:02 2018 -0600
+
+    Merge pull request #88 from mueller-ma/patch-1
+    
+    Improve error message
+
+[33mcommit 05c3cfe3e8852053ee350c880de33ecc9aa6f5ec[m
+Author: Brennen Bearnes <brennen@adafruit.com>
+Date:   Thu Jul 26 22:50:54 2018 -0600
+
+    remove deprecated ez_setup.py; update install instructions (fixes #91)
+
+[33mcommit d09520a255c1f0e5576482c616c0bfba6b63686b[m[33m ([m[1;33mtag: 1.3.3[m[33m)[m
+Merge: a609d7d ee998dc
+Author: Brennen Bearnes <brennen@adafruit.com>
+Date:   Thu Jul 26 16:55:35 2018 -0600
+
+    Merge branch 'samjetski-master'
+
+[33mcommit ee998dc54432d3a3b6be585f8ec658a723700a28[m
+Author: Brennen Bearnes <brennen@adafruit.com>
+Date:   Thu Jul 26 16:55:21 2018 -0600
+
+    bump version in setup.py to 1.3.3
+
+[33mcommit 30ef6efcfaf9f3dd950188f77debd67d788b7171[m
+Merge: a609d7d 9588744
+Author: Brennen Bearnes <brennen@adafruit.com>
+Date:   Thu Jul 26 16:32:22 2018 -0600
+
+    Merge branch 'master' of git://github.com/samjetski/Adafruit_Python_DHT into samjetski-master
+
+[33mcommit dc3f15e381ade4e5794b2ca2a636aae1f773609d[m
+Author: David Smith <dasmith@splunk.com>
+Date:   Wed Jun 20 14:30:56 2018 -0700
+
+    Issue #49 - fix long cable read delay on DHT sensor with RPI 1
+
+[33mcommit a609d7dcfb2b8208b88498c54a5c099e55159636[m
+Merge: da8cddf 0ee048e
+Author: Limor "Ladyada" Fried <limor@ladyada.net>
+Date:   Sun May 6 15:12:03 2018 -0400
+
+    Merge pull request #94 from Tronde/master
+    
+    Update supported python versions in Readme.md
+
+[33mcommit 0ee048ed4a785181b55d745745ad5259126e838b[m
+Author: Joerg Kastning <tronde@my-it-brain.de>
+Date:   Sun May 6 20:13:53 2018 +0200
+
+    Update supported python versions
+
+[33mcommit 29482ffe5638f28abe3b435a84e4e9fa8da76bc0[m
+Author: mueller-ma <mueller-ma@users.noreply.github.com>
+Date:   Wed Mar 21 16:42:17 2018 +0100
+
+    Improve error message
+
+[33mcommit 958874425a92b0bc3f1ef8265b469460250d9217[m
+Author: Samuel Jaeschke <samuel.jaeschke@gmail.com>
+Date:   Fri Apr 28 10:57:59 2017 +0930
+
+    Fixed setup.py to only detect platform for binary/install commands.
+    
+    Need to support register, etc. to enable publication to PyPI.
+
+[33mcommit 0b102125a0db969522e8544a9cd5ce0adf0c18c5[m
+Author: Samuel Jaeschke <samuel.jaeschke@gmail.com>
+Date:   Thu Apr 27 16:55:53 2017 +0930
+
+    Prepared for installation with pip.
+    
+    * Modified setup.py to not detect platform when running generating a source distribution
+    * Reads `long_description` from README.md
+    * Added MANIFEST.in
+
+[33mcommit da8cddf7fb629c1ef4f046ca44f42523c9cf2d11[m
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Tue Feb 28 23:35:34 2017 +0000
+
+    Fix to setup.py for pi 3 detection from previous pull.
+
+[33mcommit 50bde31bf75d92fcec08dcf013c74a36f1d5b07c[m
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Tue Feb 28 23:23:35 2017 +0000
+
+    Update version after merging pulls.
+
+[33mcommit 1853d6a824ac18027fceabaa7026fc8ce1fd3345[m
+Merge: 9a77169 61c70b2
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Tue Feb 28 23:21:57 2017 +0000
+
+    Merge branch 'aequitas-rpi1b_gpio_fallback'
+
+[33mcommit 9a77169b543670ee23f66e83a9b0178ad12285e5[m
+Merge: 3f30544 e1d10e1
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Tue Feb 28 15:18:53 2017 -0800
+
+    Merge pull request #55 from szponek/fix-pi3-detection
+    
+    Detect Pi 3 properly on newer kernels
+
+[33mcommit 61c70b26b8b330d204e8d681371b1a876233a5da[m
+Author: Johan Bloemberg <github@ijohan.nl>
+Date:   Sun Jan 29 17:45:09 2017 +0100
+
+    Add fallback for older kernels.
+
+[33mcommit e1d10e1513c4fff55733f3926c0e3665f407ffc8[m
+Author: Grzegorz Ojrzanowski <grzegorz.ojrzanowski@gmail.com>
+Date:   Fri Jan 20 20:12:47 2017 +1300
+
+    Detect Pi 3 properly on newer kernels
+
+[33mcommit 3f30544303b4f2563c7bc6217001d15cc9ea9a5e[m
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Wed Oct 19 22:15:00 2016 +0000
+
+    Fix python3 pip install issue with ez_setup relative import.
+
+[33mcommit 310c59b0293354d07d94375f1365f7b9b9110c7d[m
+Merge: 950f841 55b9674
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Tue Jun 21 22:11:04 2016 -0700
+
+    Merge pull request #34 from iorbitearth/master
+    
+    Detect the beaglebone black platform running Arch Linux
+
+[33mcommit 950f841474ac5294263f71dae61532d481c01cb7[m
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Wed Jun 22 05:08:25 2016 +0000
+
+    Resolve #4 by making gpio mem global explicitly extern in header.
+
+[33mcommit 9a6b599336856d9deed62df92fe820e213d4d74f[m
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Wed Jun 22 05:00:34 2016 +0000
+
+    Whitespace fix
+
+[33mcommit 0741f2cee9cef9b210c01cdbecad7757720d80fe[m
+Author: Tony DiCola <tony@tonydicola.com>
+Date:   Wed Jun 22 04:57:55 2016 +0000
+
+    Fix #45 by fixing test import line.
+
+[33mcommit 6ab69d61fe
