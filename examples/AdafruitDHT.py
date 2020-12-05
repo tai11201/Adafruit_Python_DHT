@@ -30,8 +30,8 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
-deviceId = 'DjNO1KNy'
-deviceKey = 'QHFD9PaM04uUomWd' 
+deviceId = 'DVbWgCYh'
+deviceKey = 'y0XnYUWJtuib0Nq8' 
 
 def post_to_mcs(payload): 
 	headers = {"Content-type": "application/json", "deviceKey": deviceKey} 
